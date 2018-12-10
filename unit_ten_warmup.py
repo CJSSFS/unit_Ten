@@ -10,6 +10,7 @@ pygame.display.set_caption("Pygame Test Window")
 ssfs = logo.Logo(main_surface)
 ssfs.draw_rectangle()
 ssfs.draw_trellis()
+ssfs.draw_words()
 while True:
     for event in pygame.event.get():
             if event.type == QUIT:
